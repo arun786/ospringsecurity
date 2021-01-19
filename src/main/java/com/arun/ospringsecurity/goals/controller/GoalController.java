@@ -19,7 +19,7 @@ public class GoalController {
 
     @GetMapping("/goals/read")
     public Iterable<Goal> read() {
-        //just to check if everything is working fine, is it
+        //just to check if everything is working fine, is it, lets check
         return goalService.read();
     }
 }
